@@ -1,0 +1,413 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta Aplicacion Movil</title>
+
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/tema.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head> 
+ 
+ 
+ <body onLoad="MM_preloadImages('imagenes/gamas1.jpg','imagenes/celulares_flexibles.jpg','imagenes/7.jpg','imagenes/att.jpg','res/android/Batalla2s.jpg','res/android/zaragoza2.jpg','res/android/felipe2.jpg','res/android/por2.jpg')">
+     
+     <div data-role="page" id="Principal" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Batalla de Puebla</h1>
+      </div>
+      <div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>¿Que fue la Batalla de Puebla?</h2>
+              <p>Definicion</p>
+             </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+             <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>¿Por que inicio la Batalla de Puebla? </h2>
+               <p>Conflictos</p>
+              </a>
+             </li>
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Monumentos que existen de la Batalla de Puebla</h2>
+               <p>Lugares</p>
+              </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Los heroes que participaron en la Batalla de Puebla</h2>
+               <p>Personajes</p>
+             </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+               <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Batalla del 4 de Mayo</h2>
+               <p>Telefonos del futuro</p>
+             </a>
+           </li>
+       
+           <li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>PARA MAS INFORMACION</h2>
+<p>Pulse para más información...</p>
+</a>
+</li>
+</ul>
+
+         <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/batalla1.png" alt="batalla1" title="batalla1" id="wows1_0"/></li>
+		<li><img src="data1/images/imaje1.jpg" alt="imaje1" title="imaje1" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla1s.jpg" alt="batalla1s" title="batalla1s" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla2i.jpg" alt="batalla2i" title="batalla2i" id="wows1_3"/></li>
+		<li><img src="data1/images/batalla2s.jpg" alt="Batalla2s" title="Batalla2s" id="wows1_4"/></li>
+		<li><img src="data1/images/imag3.jpg" alt="imag3" title="imag3" id="wows1_5"/></li>
+		<li><img src="data1/images/image2.jpg" alt="image2" title="image2" id="wows1_6"/></li>
+		<li><img src="data1/images/perso2.jpg" alt="perso2" title="perso2" id="wows1_7"/></li>
+		<li><img src="data1/images/image3.jpg" alt="image3" title="image3" id="wows1_8"/></li>
+		<li><img src="data1/images/monu1.jpg" alt="monu1" title="monu1" id="wows1_9"/></li>
+		<li><img src="data1/images/monu2.jpg" alt="monu2" title="monu2" id="wows1_10"/></li>
+		<li><img src="data1/images/monu3.jpg" alt="monu3" title="monu3" id="wows1_11"/></li>
+		<li><img src="data1/images/perso1.jpg" alt="perso1" title="perso1" id="wows1_12"/></li>
+		<li><img src="data1/images/monu4.jpg" alt="monu4" title="monu4" id="wows1_13"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/per3.jpg" alt="slider" title="per3" id="wows1_14"/></a></li>
+		<li><img src="data1/images/per4.jpg" alt="per4" title="per4" id="wows1_15"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="batalla1"><span><img src="data1/tooltips/batalla1.png" alt="batalla1"/>1</span></a>
+		<a href="#" title="imaje1"><span><img src="data1/tooltips/imaje1.jpg" alt="imaje1"/>2</span></a>
+		<a href="#" title="batalla1s"><span><img src="data1/tooltips/batalla1s.jpg" alt="batalla1s"/>3</span></a>
+		<a href="#" title="batalla2i"><span><img src="data1/tooltips/batalla2i.jpg" alt="batalla2i"/>4</span></a>
+		<a href="#" title="Batalla2s"><span><img src="data1/tooltips/batalla2s.jpg" alt="Batalla2s"/>5</span></a>
+		<a href="#" title="imag3"><span><img src="data1/tooltips/imag3.jpg" alt="imag3"/>6</span></a>
+		<a href="#" title="image2"><span><img src="data1/tooltips/image2.jpg" alt="image2"/>7</span></a>
+		<a href="#" title="perso2"><span><img src="data1/tooltips/perso2.jpg" alt="perso2"/>8</span></a>
+		<a href="#" title="image3"><span><img src="data1/tooltips/image3.jpg" alt="image3"/>9</span></a>
+		<a href="#" title="monu1"><span><img src="data1/tooltips/monu1.jpg" alt="monu1"/>10</span></a>
+		<a href="#" title="monu2"><span><img src="data1/tooltips/monu2.jpg" alt="monu2"/>11</span></a>
+		<a href="#" title="monu3"><span><img src="data1/tooltips/monu3.jpg" alt="monu3"/>12</span></a>
+		<a href="#" title="perso1"><span><img src="data1/tooltips/perso1.jpg" alt="perso1"/>13</span></a>
+		<a href="#" title="monu4"><span><img src="data1/tooltips/monu4.jpg" alt="monu4"/>14</span></a>
+		<a href="#" title="per3"><span><img src="data1/tooltips/per3.jpg" alt="per3"/>15</span></a>
+		<a href="#" title="per4"><span><img src="data1/tooltips/per4.jpg" alt="per4"/>16</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+           </div>
+           <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+            <div> 
+                <img src="res/android/Mexico-icon.png" width="46" height="46">
+            </div>
+            <div>
+               <h4> Brenda Angela Vazquez Ferrer </h4>
+            </div>
+           </div>
+           </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>¿Que fue la Batalla de Puebla? </h1>
+             </div>
+             
+             <div data-role="content" align="center">
+               <div>
+                  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>  </h1>
+          <div>
+            <p> Se muestra una imagen </p>
+            <br>
+          </div>
+          <div>
+          <img src="res/android/batalla1.png" width="50%" height="50%">
+           </div>
+          </div>
+         </div> 
+         <h2> La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, aunque sí que sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días) y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano. Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir,1 los franceses se retiraron incondicionalmente del país en el año 1867. </h2> 
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','res/android/Batalla2s.jpg',1)"><img src="res/android/batalla1s.jpg" width="641" height="261" id="Image35"></a></p>
+         
+               </div>
+              </div> 
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+              </div>
+             </div>
+            
+              
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>¿Por que inicio la Batalla de Puebla?</h1>
+             </div>
+             
+   <div data-role="content" align="center">
+               <div>
+                 <p>Debido principalmente a la cantidad de deudas,  &nbsp;Inglaterra&nbsp;y&nbsp;España&nbsp;subscribieron  el&nbsp;Convenio de Londres, por el cual se comprometieron a intervenir por el  uso de la fuerza en México para reclamar sus derechos como acreedores, mientras  tanto el Presidente&nbsp;Benito Juárez&nbsp;declaró suspendidos los compromisos  adquiridos y aplazó pagar la deuda a las naciones europeas. Tras desembarcar  en&nbsp;Veracruz,&nbsp;España&nbsp;e&nbsp;Inglaterra&nbsp;aceptaron las  explicaciones mexicanas dadas en los&nbsp;Tratados de La Soledad, los cuales  tenían como fundamento, el respeto a la soberanía territorial, el  reconocimiento de las naciones acreedoras al Estado Mexicano, la entrada al  terreno de las negociaciones para llegar a acuerdos en común, que beneficiaría  tanto a la República Mexicana, como a los intereses de las potencias invasoras,  y por último, se permitiría que los soldados de los tres países se  establecieran en las ciudades mexicanas  de&nbsp;Orizaba,&nbsp;Córdoba&nbsp;y&nbsp;Tehuacán&nbsp;durante las  negociaciones, debido a lo malsano del clima imperante en el puerto de&nbsp;Veracruz;  en caso contrario, los soldados de las tres potencias se retirarían a las  costas de&nbsp;Veracruz&nbsp;para así comenzar las hostilidades.<br>
+                   Solo los representantes  de&nbsp;España&nbsp;e&nbsp;Inglaterra&nbsp;comprendieron la situación que  guardaba la República Mexicana, al analizar los argumentos, decidieron negociar  de manera independiente ante la autoridad mexicana, privilegiando a la nación  mexicana con un triunfo diplomático, que dadas las difíciles circunstancias,  permitió encauzar esfuerzos posteriormente hacia la intervención del Imperio  Francés; pero ellos tenían otros planes. El primero, el pronto pago con  intereses de la deuda, esto incluía un cobro exagerado por parte de la  &quot;Casa Jecker&quot;, debido a destrozos causados durante la&nbsp;Guerra de  Reforma, dos, tener control total y absoluto de las aduanas, así como  intervención directa en la política económica del país, y tres, el más común,  imponer un gobierno monárquico en México, con miras a contrarrestar el  creciente poderío de los Estados Unidos.<br>
+                   Sin embargo, un mal entendido por parte de los  representantes de las tres potencias, aunado a los ambiciosos planes de la  representación francesa de sus propios tratados, inicio pronto las hostilidades  con el ejército de&nbsp;Napoleón III, dando por iniciada la&nbsp;Segunda  Intervención Francesa&nbsp;en México.</p>
+<h4>&nbsp;</h4>
+                 
+                 <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>  </h1>
+          <div>
+            <p> Se muestra una imagen </p>
+            <br>
+          </div>
+          <div>
+          <img src="res/android/batalla2i.jpg" width="50%" height="50%">
+           </div>
+          </div>
+         </div>  
+     </div>
+              </div> 
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+              </div>
+             </div>
+                          
+              
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Monumentos que existen de la Batalla de Puebla</h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                <h2> Monumento a la Victoria del 5 de Mayo - Puebla - México </h2>
+                 <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>   </h1>
+          <div>
+            <p> Se muestra una imagen : </p>
+            <br>
+          </div>
+          <div>
+            <img src="res/android/monu2.jpg" width="50%" height="50%">
+           </div>
+          </div>
+         </div>
+<h2> Fuerte de Loreto.</h2>
+<h4> Escenario de la batalla del 5 de mayo de 1862, fue una iglesia del siglo XVIII, su fachada es un ejemplo del barroco novohispano.</h4>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">    </div>
+</div>
+
+<div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>   </h1>
+          <div>
+            <p> Se muestra una imagen</p>
+            <br>
+          </div>
+          <div>
+            <img src="res/android/monu3.jpg" width="25%" height="20%">
+           </div>
+          </div>
+         </div>
+<h2> Fuerte de Guadalupe.</h2>
+  <h4>Hoy modernizado, fue el escenario de la batalla de 1862 el 5 de mayo.</h4>
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>  </h1>
+          <div>
+            <p> Se muestra una imagen </p>
+            <br>
+          </div>
+          <div>
+                <img src="res/android/monu4.jpg" width="25%" height="20%">
+                </div>
+          </div>
+         </div>  
+     </div>
+              </div> 
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+              </div>
+             </div>
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Los héroes que participaron en la Batalla de Puebla</h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                <h2> Ignacio Zaragoza</h2>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','res/android/zaragoza2.jpg',1)"><img src="res/android/zaragoza.jpg" width="239" height="210" id="Image45"></a>
+<h4>Ministro de Guerra y militar que dirigió el  Ejército Mexicano, quienes, acompañados por un grupo de indígenas.</h4>
+               <div data-role="main" class="ui-content" align="center">
+                 <div style="width:40%;">                 </div>
+               </div>
+
+                 <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>   </h1>
+          <div>
+            <p> Se muestra una imagen : </p>
+            <br>
+          </div>
+          <div>
+             <img src="res/android/perso1.jpg" width="25%" height="20%">
+           </div>
+          </div>
+         </div>
+<h2>General Porfirio Díaz</h2>
+
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','res/android/por2.jpg',1)"><img src="res/android/por.jpg" width="239" height="210" id="Image47"></a></p>
+<h4> Escenario de la batalla del 5 de mayo de 1862, fue una iglesia del siglo XVIII, su fachada es un ejemplo del barroco novohispano.</h4>
+<div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>   </h1>
+          <div>
+            <p> Se muestra una imagen</p>
+            <br>
+          </div>
+          <div>
+            <img src="res/android/perso2.jpg" width="25%" height="20%">
+           </div>
+          </div>
+         </div>
+         <h2>Felipe Berriazábal</h2>  
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','res/android/felipe2.jpg',1)"><img src="res/android/felipe.jpg" width="332" height="311" id="Image46"></a>
+<h4>En la batalla del 5 de mayo en Puebla, aseguró el triunfo de los mexicanos al dar alcance con la caballería, junto con el Gral. Porfirio Díaz, a las tropas francesas en retiradas.Actuó bajo las órdenes del general Ignacio Zaragoza al confrontar y derrotar a Leonardo Márquez en las Lomas de Calderón, pero fue hecho prisionero por Miguel Miramón en diciembre de 1860. En 1862, participó en la defensa del Convento San Agustín, en la Batalla de Las Cumbres, y en la Batalla de Puebla.</h4>
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>  </h1>
+          <div>
+            <p> Se muestra una imagen </p>
+            <br>
+          </div>
+          <div>
+                        <img src="res/android/felipe2.jpg" width="25%" height="20%">           </div>
+          </div>
+         </div>  
+     </div>
+              </div> 
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+              </div>
+             </div>
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>Batalla del 4 de Mayo</h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                <h2> GENERAL ANTONIO CARVAJAL  </h2> </div>
+                <h4> Vencedor de la batalla del 4 de mayo en Atlixco, que originó el triunfo del 5 de mayo de 1862, en Puebla</h4>
+                 <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>   </h1>
+          <div>
+            <p> Se muestra una imagen : </p>
+            <br>
+          </div>
+          <div>
+             <img src="res/android/per3.jpg" width="25%" height="20%">
+           </div>
+          </div>
+         </div>
+         <h2> tomas O'horan</h2>  
+<h4> Escenario de la batalla del 5 de mayo de 1862, fue una iglesia del siglo XVIII, su fachada es un ejemplo del barroco novohispano.</h4>
+<div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>   </h1>
+          <div>
+            <p> Se muestra una imagen</p>
+            <br>
+          </div>
+          <div>
+              <img src="res/android/per4.jpg" width="25%" height="20%">
+             </div>
+          </div>
+         </div>  
+     </div>
+             
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       
+                <h4> Brenda Angela Vazquez Ferrer </h4>
+              </div>
+             </div>
+              </div> 
+              
+              <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>PARA MAS INFORMCION(bibliografias)</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.biografiasyvidas.com/biografia/d/diaz_porfirio.htm" data-role="button" id="beep">
+<font size="3" face="castellan"> Porfirio Diaz</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://www.biografiasyvidas.com/biografia/z/zaragoza.htm" data-role="button" id="beep">
+<font size="3" face="castellan">Ignacio Zaragoza</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="http://smgeem.blogspot.mx/2012/10/felipe-berriozabal-general-y-gobernador.html" data-role="button" id="beep">
+<font size="3" face="castellan">Felipe Berriozábal</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="https://es.wikipedia.org/wiki/Batalla_de_Atlixco" data-role="button" id="vibrar">
+<font size="3" face="castellan">batalla de 4 de mayo</font>
+</a> 
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+
+   <h4> Brenda Angela Vazquez Ferrer </h4>
+              </div>
+             </div>
+             
+</body>
+</html>
